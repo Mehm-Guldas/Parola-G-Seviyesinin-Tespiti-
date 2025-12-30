@@ -1,0 +1,117 @@
+T.C.
+
+TRAKYA ÜNİVERSİTESİ
+
+FEN BİLİMLERİ ENSTİTÜSÜ
+
+
+
+PROJE KÜNYESİ :
+Yapay Sinir Ağları ve Doğal Dil İşleme Teknikleri ile Parola Güç Seviyesinin Tespiti ve Sınıflandırılması
+
+
+
+
+
+YAPAY SİNİR AĞLARI
+
+Bilgisayar Mühendisliği Anabilim Dalı
+
+
+
+
+Hazırlayan:
+Mehmet Şirin Güldaş – 2581053009
+                                                       
+
+
+Danışman:
+ Dr. Öğr. Üyesi Turgut DOĞAN
+
+
+
+
+ÖZET
+
+Yapay Sinir Ağları ile Parola Güç Seviyesinin Tespiti
+Bilgi güvenliği denilince akla ilk parolalar gelir  ancak kullanıcılar genellikle hatırlaması kolay, kısa ve zayıf şifreler tercih etmektedir. Bu durum  siber saldırganların hesapları ele geçirmesini kolaylaştırmaktadır. Bu projenin temel amacı, yapay sinir ağlarını kullanarak bir parolanın ne kadar güvenli olduğunu (Zayıf, Orta, Güçlü) tespit eden akıllı bir model geliştirmektir.
+Çalışmada, açık kaynaklı "Password Strength Classifier Dataset (Jikadara 2025)" kullanılacaktır.
+Anahtar Kelimeler: Siber Güvenlik, Parola Gücü, Yapay Sinir Ağları, Sınıflandırma, TF-IDF.
+
+
+
+
+
+
+
+
+
+
+
+
+ABSTRACT
+
+
+Detection of Password Strength Using Artificial Neural Networks
+Passwords are the first line of defense in information security, yet users often choose weak and predictable passwords for convenience. This habit leaves systems vulnerable to cyber-attacks. The primary aim of this project is to develop an intelligent model based on artificial neural networks to classify the security level of passwords as "Weak," "Medium," or "Strong."
+In the study, the open source "Password Strength Classifier Dataset (Jikadara 2025)" will be used.
+Keywords: Cyber Security, Password Strength, Artificial Neural Networks, Classification, TF-IDF.
+
+
+
+
+
+
+
+
+
+
+
+
+İÇİNDEKİLER
+
+ÖZET	2
+ABSTRACT	3
+İÇİNDEKİLER	4
+KULLANILACAK VERİ SETİ	5
+KULLANILACAK METOTLAR	5
+KULLANILACAK PROGRAMLAMA ORTAMLARI VE ARAÇLAR	6
+PROJENİN YÜKLENECEĞİ GITHUB BAĞLANTISI	6
+KAYNAKÇA	7
+
+
+ 
+KULLANILACAK VERİ SETİ
+
+
+Projemizde Kaggle ‘dan  bulduğum "Password Strength Classifier Dataset" kullanılacaktır. Bu veri seti, yaklaşık 670.000 adet parolayı içermektedir. Veriler, güvenlik seviyelerine göre "Zayıf (0)", "Orta (1)" ve "Güçlü (2)" olmak üzere üç farklı sınıfa etiketlenmiş durumdadır. Çok sayıda veri olması  modelimizin farklı zorluktaki şifreleri tanıması için yeterli kaynağı sağlamaktadır (Melicher, Ur et al. 2016).
+
+KULLANILACAK METOTLAR
+
+Veri setini kullanmadan önce bir ön işleme (preprocessing) adımı uygulanacağım. Parolalar metin tabanlı olduğu için, bilgisayarın anlayabileceği sayısal verilere dönüştürülmesi gerekmektedir. Bunun için karakter tabanlı TF-IDF (Term Frequency-Inverse Document Frequency) yöntemi kullanılacaktır. Ayrıca modelin başarısını artırmak için  parolaların uzunluğu, içerdiği  karakterler ve büyük-küçük harf durumu gibi özellikler de (Feature Engineering) manuel olarak çıkarılıp modele eklenecektir (Rehman, Ahmed et al. 2024).
+Sınıflandırma algoritması olarak, Çok Katmanlı Algılayıcı (Multi-Layer Perceptron - MLP) mimarisine sahip bir Yapay Sinir Ağı modeli tercih edilecektir. Modelin ara katmanlarında öğrenmeyi hızlandırmak amacıyla ReLU, çıkış katmanında ise üç farklı sınıf olduğu için Softmax aktivasyon fonksiyonu kullanılacaktır.
+
+ 
+KULLANILACAK PROGRAMLAMA ORTAMLARI VE ARAÇLAR
+
+Projeyi geliştirmek için Python programlama dili tercih edilmiştir. Verileri analizi için  Pandas ve NumPy kütüphanelerini, yapay sinir ağını kurmak ve eğitmek için ise TensorFlow ve Keras kütüphanelerini kullanacağım. Modelin sonuçlarını ve başarı grafiklerini çizdirmek için ise Matplotlib ve Seaborn kütüphanelerinden faydalanacağım. 
+
+
+
+PROJENİN YÜKLENECEĞİ GITHUB BAĞLANTISI 
+
+https://github.com/Mehm-Guldas/Parola-G-Seviyesinin-Tespiti-
+
+
+
+
+
+
+ 
+
+
+KAYNAKÇA
+Jikadara, B. (2025). "Password Strength Classifier Dataset." from https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset/data.
+Melicher, W., B. Ur, S. M. Segreti, S. Komanduri, L. Bauer, N. Christin and L. F. Cranor (2016). Fast, lean, and accurate: Modeling password guessability using neural networks. 25th USENIX Security Symposium (USENIX Security 16).
+Rehman, H., A. Ahmed, A. Hussain, M. Umar, M. Siraj, W. Ahmed, M. Muhamnad and E. Rehman (2024). Password Strength Classification Using Machine Learning Methods. 2024 Global Conference on Wireless and Optical Technologies (GCWOT), IEEE.
+ 
