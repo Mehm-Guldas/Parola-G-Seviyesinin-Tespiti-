@@ -19,7 +19,8 @@ Proje, Kaggle'dan alınan **"Password Strength Classifier Dataset"** kullanılma
   - 0: Zayıf (Weak)
   - 1: Orta (Medium) 
   - 2: Güçlü (Strong)
-- **Kaynak:** [Jikadara, B. (2025)](https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset/data)
+- **Kaynak:** [Jikadara, B. (2025)](https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset/data)<img width="715" height="281" alt="Ekran görüntüsü 2025-12-22 215702" src="https://github.com/user-attachments/assets/224c36c8-c588-4346-82e0-9303ca84b8aa" />
+
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -108,8 +109,11 @@ Modeller aşağıdaki metriklerle değerlendirilir:
 <img width="1150" height="490" alt="Ekran görüntüsü 2025-12-25 160621" src="https://github.com/user-attachments/assets/20bb4545-7a2b-4001-85b8-d612ece916dc" />
 <img width="645" height="372" alt="Ekran görüntüsü 2025-12-25 160633" src="https://github.com/user-attachments/assets/b894b56e-eb05-405d-b044-1336fad30325" />
 <img width="769" height="493" alt="Ekran görüntüsü 2025-12-25 164919" src="https://github.com/user-attachments/assets/ee7e2365-39a2-481a-915b-fe08541e5b86" />
+![Uploading Ekran görüntüsü 2025-12-22 215702.png…]()
+<img width="552" height="564" alt="Ekran görüntüsü 2025-12-22 215645" src="https://github.com/user-attachments/assets/1c91cc86-5500-4b79-be89-74cadaaad48f" />
 
-## 👨‍💻 Yazar
+## 👨‍💻 Yazar<img width="746" height="281" alt="Ekran görüntüsü 2025-12-22 215638" src="https://github.com/user-attachments/assets/0faeee99-c73a-4d85-bc61-a6ab201c9732" />
+
 
 **Mehmet Şirin Güldaş**  
 Bilgisayar Mühendisliği, Trakya Üniversitesi  
