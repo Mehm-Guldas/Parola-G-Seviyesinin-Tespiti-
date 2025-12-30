@@ -105,6 +105,10 @@ Modeller aşağıdaki metriklerle değerlendirilir:
 - Karakter seviyesinde derin öğrenme
 - Çoklu model karşılaştırması
 - Optimize edilmiş TF-IDF özellik çıkarımı
+<img width="728" height="320" alt="Ekran görüntüsü 2025-12-25 160603" src="https://github.com/user-attachments/assets/bf8d3d42-f8fb-4e73-b191-8cb1098bc592" />
+<img width="1150" height="490" alt="Ekran görüntüsü 2025-12-25 160621" src="https://github.com/user-attachments/assets/20bb4545-7a2b-4001-85b8-d612ece916dc" />
+<img width="645" height="372" alt="Ekran görüntüsü 2025-12-25 160633" src="https://github.com/user-attachments/assets/b894b56e-eb05-405d-b044-1336fad30325" />
+<img width="769" height="493" alt="Ekran görüntüsü 2025-12-25 164919" src="https://github.com/user-attachments/assets/ee7e2365-39a2-481a-915b-fe08541e5b86" />
 
 ## 👨‍💻 Yazar
 
