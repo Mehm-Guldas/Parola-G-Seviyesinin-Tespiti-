@@ -1,32 +1,3 @@
-T.C.
-
-TRAKYA ÜNİVERSİTESİ
-
-FEN BİLİMLERİ ENSTİTÜSÜ
-
-
-
-PROJE KÜNYESİ :
-Yapay Sinir Ağları ve Doğal Dil İşleme Teknikleri ile Parola Güç Seviyesinin Tespiti ve Sınıflandırılması
-
-
-
-
-
-YAPAY SİNİR AĞLARI
-
-Bilgisayar Mühendisliği Anabilim Dalı
-
-
-
-
-Hazırlayan:
-Mehmet Şirin Güldaş – 2581053009
-                                                       
-
-
-Danışman:
- Dr. Öğr. Üyesi Turgut DOĞAN
 
 
 
